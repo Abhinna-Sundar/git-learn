@@ -8,5 +8,6 @@ I want this to go into commit
 4. git status: to look at the status of the repository, track changes etc.
 5. git log: see the changes time by person etc. all info.
 6. git commmit -m "xxxx yyyyy" : see the commits and messages put
+7. rm -rf .git : Deletes the git content of the repository. No tracking of the repo from now. 
 
 Finally use git log to see the final stages.
