@@ -11,5 +11,6 @@ I want this to go into commit
 9. git add -a -m "Direct commit": skips the staging part and commits directly, untrakcked files cannot be commited directly, we need to add that file first and then commit changes
 10. git rm third.txt: removes and adds it to the staging processes (manually we'll have to add the file and then run this, which is a complicated process)
 11. git mv first.txt first_rename.txt: renames/moves the files and adds it to the staging process
+12. git rm --cached dbb.accdb: untracks the previously tracked files (let's say that we were trcking this file, and we no longer need this tracking and hence added to the gitignore, but it will still track since it was previously tracked by the git) 
 
 Finally use git log to see the final stages.
