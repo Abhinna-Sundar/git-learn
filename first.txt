@@ -12,5 +12,12 @@ I want this to go into commit
 10. git rm third.txt: removes and adds it to the staging processes (manually we'll have to add the file and then run this, which is a complicated process)
 11. git mv first.txt first_rename.txt: renames/moves the files and adds it to the staging process
 12. git rm --cached dbb.accdb: untracks the previously tracked files (let's say that we were trcking this file, and we no longer need this tracking and hence added to the gitignore, but it will still track since it was previously tracked by the git) 
+13. git log -p: see the last change
+14. git log -p -n (n=1,2,3,4): see the last n changes, the differences
+15. git log --stat: what the files and lines changes etc in summarized ways in the previous commits 
+16. git log --pretty=oneline/short/full: See all the changes in the commits in onelines, shorts, and full versions
+17. git log --since=2.days/months/years: see the past 2 days, months,years commits etc.
+18. git log --pretty=format: "%h -- an": See the log file in a different format with hashes(h) and author names(an)-- check this website https://git-scm.com/docs/git-log
+19. git commit --amend: Adds to the commits with author name to be added into the pop up file
 
 Finally use git log to see the final stages.
