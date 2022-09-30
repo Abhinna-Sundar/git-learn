@@ -1,0 +1,15 @@
+I want this to go into commit
+
+1. git init: only use for the first time only, if you run this command again it will reinitilize the repositary, which we don not want.
+2. git add --a : all the changes will get staged. (committed)
+3. git add first.txt: add only the file which you want is good. Do not add the files you are not sure of will work fine.
+4. git status: to look at the status of the repository, track changes etc.
+5. git log: see the changes time by person etc. all info.
+6. git commmit -m "xxxx yyyyy" : see the commits and messages put (eg: bugs fixed etc)
+7. rm -rf .git : Deletes the git content of the repository. No tracking of the repo from now. 
+8. git diff: compares modified files with that of the staging area
+9. git add -a -m "Direct commit": skips the staging part and commits directly, untrakcked files cannot be commited directly, we need to add that file first and then commit changes
+10. git rm third.txt: removes and adds it to the staging processes (manually we'll have to add the file and then run this, which is a complicated process)
+11. git mv first.txt first_rename.txt: renames/moves the files and adds it to the staging process
+
+Finally use git log to see the final stages.
