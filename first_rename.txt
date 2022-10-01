@@ -9,5 +9,10 @@ I want this to go into commit
 7. rm -rf .git : Deletes the git content of the repository. No tracking of the repo from now. 
 8. git diff: compares modified files with that of the staging area
 9. git add -a -m "Direct commit": skips the staging part and commits directly, untrakcked files cannot be commited directly, we need to add that file first and then commit changes
+10. git checkout -- first_rename.txt: rolls back to the previously committed file. Problematic if you have an information in the latest file and you did not commit that. Be careful!
+11. git checkout -f: same as previous, but for all the files. Again, be very careful!
+12. (i) git remote xx yy (take from github- from an existing repository, eg git remote add origin https://github.com/Abhinna-Sundar/git-learn.git): create a website where this repository exists.
+    (ii) git remote (after you use the previous command): to see the remotes -- in this case it is origin
+    (iii)git remote -v: see how to push and fetch the commits and files from repository
 
 Finally use git log to see the final stages.
