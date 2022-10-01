@@ -14,5 +14,11 @@ I want this to go into commit
 12. (i) git remote xx yy (take from github- from an existing repository, eg git remote add origin https://github.com/Abhinna-Sundar/git-learn.git): create a website where this repository exists.
     (ii) git remote (after you use the previous command): to see the remotes -- in this case it is origin
     (iii)git remote -v: see how to push and fetch the commits and files from repository
-
+13.
 Finally use git log to see the final stages.
+
+
+SSH keys generate
+1. ssh-keygen -t ed25519 -C "your_email@example.com": replace with my email ID
+2. eval "$(ssh-agent -s)": ensure that SSH agent is running -- will get Agent pid xxxxx
+3. 
